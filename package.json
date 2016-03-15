@@ -1,12 +1,12 @@
 {
-  "name": "sublime-sync",
+  "name": "sublime-sync-ftp",
   "version": "0.1.6",
-  "description": "A directory watcher / sync tool for the Sublime SFTP plugin",
+  "description": "Fork de sublime-sync pour gérer le FTP",
   "main": "index.js",
   "preferGlobal": "true",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RickGroenewegen/sublime-sync.git"
+    "url": "https://github.com/Charcute/sublime-sync.git"
   },
   "bin": {
     "sublime-sync": "index.js"
