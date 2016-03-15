@@ -30,7 +30,7 @@ var start = function() {
     host: host, // required 
     username: username, // required 
     password: password, // required 
-    port: 22 // optional 
+    port: 21 // optional 
   });
 
   // Create scan function that runs & empties the SFTP queue every second
@@ -100,6 +100,7 @@ if(fs.existsSync(configLocation)) {
     host = config.host;
     username = config.user;
     password = config.password;
+    port = config.port;
     ignorePatterns = config.ignore_regexes;
     remotePath = config.remote_path;
     
